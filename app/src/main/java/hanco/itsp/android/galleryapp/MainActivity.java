@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         if(resultCode==RESULT_OK && requestCode== PICK_IMAGE){
             Uri imageUri=data.getData();
             imageView.setImageURI(imageUri);
-            Image image=imageView.getBackground();
+
 
         }
 
